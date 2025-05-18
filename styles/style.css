@@ -87,15 +87,47 @@ a {
     align-items: center;
 }
 
+.contents01 a:hover {
+    color: #093a60;
+}
+
+.txt-001{
+    transition: 0.4s ease-in-out;
+}
+
+.txt-001:hover {
+    color: #093a60;
+    text-shadow: 2px 2px 10px #093a60;
+}
+
 .op1 a img,
-.op2 a img {
+.op2 a img,
+.op3 a img {
     max-width: 60px;
     border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.op1 a img:hover,
+.op2 a img:hover,
+.op3 a img:hover{
+    filter: drop-shadow(3px 3px 10px #093a60);
+    border: solid #29aaff;
 }
 
 .op1 a,
-.op2 a {
+.op2 a,
+.op3 a {
   color: black;
+  font-weight: 700;
+  transition: 0.2s ease-in-out;
+}
+
+.op1 a:hover,
+.op2 a:hover,
+.op3 a:hover{
+    text-shadow: 3px 3px 10px #29aaff;
+    color: #093a60;
 }
 
 
